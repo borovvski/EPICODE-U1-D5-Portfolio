@@ -1,0 +1,54 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #b2dca7;
+  text-align: center;
+}
+.position {
+  width: 1200px;
+  height: 709px;
+  background-color: cadetblue;
+  margin-left: auto;
+  position: relative;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+main {
+  padding-left: 40px;
+  width: 1000px;
+  color: aquamarine;
+  text-align: left;
+  background-image: url(https://i.pinimg.com/originals/47/a5/ee/47a5eeb6f33e20d3f71bcf8687084ed0.jpg);
+}
+aside {
+  width: 566px;
+  margin-left: 20px;
+}
+aside img {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 15px;
+}
+.phone {
+  position: relative;
+  top: 20px;
+}
+.phone-button {
+  right: 111px;
+  top: 414px;
+  position: absolute;
+  color: aliceblue;
+  width: 180px;
+  height: 70px;
+  background-color: #4f5058;
+  border-radius: 35px;
+  transform: translateY(0px);
+  transition: transform 0.2s linear;
+}
+.phone-button:hover {
+  transform: translateY(80px);
+  transition: transform 0.2s linear;
+}
